@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body{
+  background-color: rgb(226 232 240) ;
+}
+
+.signin::before{
+  content: '';
+  background: url('../public/img/office-dark.jpg');
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+/* .signup::before{
+  content: '';
+  background: url('../public/img/illustration-signup.jpg'); */
+  /* background-color: red; */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+
+} */
